@@ -1,6 +1,7 @@
 #!/bin/bash
 # Adds Bio-Linux repository and installs packages
 # Uses ~1gb of bandwidth
+# tested with ami-eb46a782 Ubuntu 9.04 Jaunty desktop 32-bit
 # Run user-setup to configure users if desired
 # There are a few dialogs, select or enter yes for all of them
 # written by Michael Chelen http://mikechelen.com

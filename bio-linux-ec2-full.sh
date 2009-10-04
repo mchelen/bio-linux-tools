@@ -11,10 +11,7 @@
 # http://nebc.nox.ac.uk/tools/bio-linux/package-list
 # https://help.ubuntu.com/community/Repositories/CommandLine#Enabling%20Repositories%20with%20a%20%28non-interactive%29%20Script
 
-# backup the original sources.list
-cp /etc/apt/sources.list /etc/apt/sources.list.orig
-
-# append the repository list with the http://nebc.nox.ac.uk/bio-linux/ debian unstable repository
+# add the repository http://nebc.nox.ac.uk/bio-linux/ debian unstable repository
 echo 'deb http://nebc.nox.ac.uk/bio-linux/ unstable bio-linux' >> /etc/apt/sources.list.d/nebc.nox.ac.uk.bio-linux.sources.list
 
 # update and upgrade current system
